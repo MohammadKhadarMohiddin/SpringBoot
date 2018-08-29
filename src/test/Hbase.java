@@ -93,7 +93,7 @@ public class Hbase {
 	
 		int header_flag = -1;
 		
-		for(int counter=1; counter<2;counter++) {
+		for(int counter=1; counter<8;counter++) {
 			
 			String filename = "C:\\Users\\MOHMO06\\Desktop\\My\\Nithin\\Hive HBase use cases\\Hive"+counter+".txt";
 			File file = new File(filename);
